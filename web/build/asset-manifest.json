@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gesture-detector/static/css/main.435d5fe5.chunk.css",
+    "main.js": "/gesture-detector/static/js/main.6a8d4e01.chunk.js",
+    "main.js.map": "/gesture-detector/static/js/main.6a8d4e01.chunk.js.map",
+    "runtime-main.js": "/gesture-detector/static/js/runtime-main.f4dee66c.js",
+    "runtime-main.js.map": "/gesture-detector/static/js/runtime-main.f4dee66c.js.map",
+    "static/js/2.8c7b5a88.chunk.js": "/gesture-detector/static/js/2.8c7b5a88.chunk.js",
+    "static/js/2.8c7b5a88.chunk.js.map": "/gesture-detector/static/js/2.8c7b5a88.chunk.js.map",
+    "index.html": "/gesture-detector/index.html",
+    "precache-manifest.be17ca95f1c0515924973e00fc532fec.js": "/gesture-detector/precache-manifest.be17ca95f1c0515924973e00fc532fec.js",
+    "service-worker.js": "/gesture-detector/service-worker.js",
+    "static/css/main.435d5fe5.chunk.css.map": "/gesture-detector/static/css/main.435d5fe5.chunk.css.map",
+    "static/js/2.8c7b5a88.chunk.js.LICENSE.txt": "/gesture-detector/static/js/2.8c7b5a88.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4dee66c.js",
+    "static/js/2.8c7b5a88.chunk.js",
+    "static/css/main.435d5fe5.chunk.css",
+    "static/js/main.6a8d4e01.chunk.js"
+  ]
+}
