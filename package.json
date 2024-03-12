@@ -1,18 +1,25 @@
 {
   "name": "handpose",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://gesturedetector.live",
+  "private": false,
   "dependencies": {
     "@tensorflow/tfjs": "^2.7.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^6.1.1",
     "react": "^16.14.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "react-webcam": "^5.2.0"
   },
+  "engines": {
+    "node": "16.18.1"
+  },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
