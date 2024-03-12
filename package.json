@@ -1,7 +1,7 @@
 {
   "name": "handpose",
   "version": "0.1.0",
-  "homepage": "https://gesturedetector.live",
+  "homepage": "https://bkctrl.github.io/gesture-detector",
   "private": false,
   "dependencies": {
     "@tensorflow/tfjs": "^2.7.0",
@@ -15,7 +15,7 @@
     "react-webcam": "^5.2.0"
   },
   "engines": {
-    "node": "16.18.1"
+    "node": "20.9"
   },
   "scripts": {
     "predeploy": "npm run build",
