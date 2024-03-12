@@ -15,7 +15,7 @@
     "react-webcam": "^5.2.0"
   },
   "engines": {
-    "node": "20.9"
+    "node": "18.12"
   },
   "scripts": {
     "predeploy": "npm run build",
