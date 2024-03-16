@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/bkctrl/gesture-detector">
-    <img src="[images/logo.png](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png)" alt="Logo" width="80" height="80">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Gesture Detector</h3>
@@ -98,14 +98,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dictum l
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 [Bootstrap-url]: https://getbootstrap.com
