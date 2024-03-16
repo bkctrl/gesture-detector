@@ -23,7 +23,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dictum lorem. Proin dui enim, efficitur sit amet hendrerit non, rutrum dapibus diam. Suspendisse potenti. Nulla facilisi. 
+This is a web application that leverages the TensorFlow Object Detection API to implement real-time object classification via a webcam. The program starts off by collecting images from the user with OpenCV. The user then creates annotations (labels specific objects) on those images to be classified as specific objects using the open source tool LabelImg or Label Studio (https://github.com/HumanSignal/labelImg). A model from the TensorFlow 2 Detection Model Zoo (https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) is chosen, which is utilized to generate a machine-learning model on the annotations of the collected images. The subsequently generated ML model is then converted into a TensorflowJS-compatible format which then is implemented into a web application. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
