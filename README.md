@@ -15,7 +15,7 @@
   </p>
 </div>
 
-<b align="center">Try these gestures:</b>
+<div align="center"><b>Try these gestures:</b></div>
 
 
 <!-- ABOUT THE PROJECT -->
