@@ -16,7 +16,7 @@
 </div>
 
 <div align="center"><b>Try these gestures:</b></div>
-<div align="center"><a href=""><img src="diagram.png"  width="350" height="100"></a></div>
+<div align="center"><a href=""><img src="diagram.png"  width="700" height="200"></a></div>
 
 
 <!-- ABOUT THE PROJECT -->
