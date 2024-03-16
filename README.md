@@ -67,14 +67,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dictum l
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-
-<!-- GETTING STARTED -->
-### Prerequisites
- - Have Python and Jupter Notebook installed. 
-
-
-
 ## Getting Started
 
 1. Create a new Python virtual environment.
@@ -82,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dictum l
 python -m venv [venv-name]
 ```
 
-2. Activate the environment.
+2. Activate the environment.<br>
 Linux/MacOS:
 ```
 source [venv-name]/bin/activate
@@ -123,37 +115,3 @@ npm install
 ```
 npm start
 ```
-
-
-### Installation
-
-[INSTALLATION STEPS]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-[EXAMPLE OF RUNNING THE PROJECT]
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
