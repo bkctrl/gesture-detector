@@ -59,8 +59,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dictum l
 
 ### Built With
 <a href=""><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"></a>
-<a href=""><img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="X11"></a>
 <a href=""><img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white"></a>
+<a href=""><img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="X11"></a>
 <a href=""><img src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white"></a>
 <a href=""><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="X11"></a>
 <a href=""><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="X11"></a>
@@ -70,13 +70,60 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dictum l
 
 
 <!-- GETTING STARTED -->
+### Prerequisites
+ - Have Python and Jupter Notebook installed. 
+
+
+
 ## Getting Started
 
-[EXPLAIN HOW THE PROJECT SHOULD BE SET UP LOCALLY]
+1. Create a new Python virtual environment.
+```
+python -m venv [venv-name]
+```
 
-### Prerequisites
+2. Activate the environment.
+Linux/MacOS:
+```
+source [venv-name]/bin/activate
+```
+Windows:
+```
+.\[venv-name]\Scripts\activate # Windows
+```
 
-[PREREQUISITES, e.g. X11]
+3.  Update pip and install ipykernel.
+```
+python -m pip install --upgrade pip
+pip install ipykernel
+python -m ipykernel install --user --name=[venv-name]
+```
+
+4. Using `image_collection.ipynb`, collect images with the window opened with OpenCV. 
+
+
+5. Generate annotations of the collected images.
+
+
+6. Divide collected images and annotations into `train` and `test` subfolders. The images and annotations in the `train` folder would be trained and the result will be compared to the the expected performance on the files in the `test` folder. 
+
+
+7. Train the model with `train_detection.ipynb`. You may adjust the TensorFlow Zoo model being used (https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) as desired. 
+
+8. Export the model into TensorflowJS-format, included in `train_detection.ipynb`. Files `model.json`, `group1-shard1of3.bin`, `group1-shard2of3.bin`, and `group1-shard3of3.bin` should be generated. Keep this for future use.
+
+9. Install dependencies for the web-app implementation.
+```
+npm install
+```
+
+10. Copy `model.json`, `group1-shard1of3.bin`, `group1-shard2of3.bin`, and `group1-shard3of3.bin` from above into the `web/public` directory. 
+
+11. Start the app!
+```
+npm start
+```
+
 
 ### Installation
 
